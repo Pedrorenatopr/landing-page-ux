@@ -90,9 +90,9 @@ body {
 
     .botao-menu {
         display: block;
-        background-color: red;
         border: none;
-        color: black;
+        color: red;
+        background: none;
     }
 
     .menu-lista {
@@ -135,6 +135,7 @@ body {
         font-weight: bold;
         padding: 10px;
         border-radius: 10px;
+        border: none;
     }
 
     .texto-dois {
