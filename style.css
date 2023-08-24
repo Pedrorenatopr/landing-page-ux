@@ -36,7 +36,7 @@ body {
 .logo {
     position: absolute;
     margin-left: 400px;
-    margin-top: -40px;
+    margin-top: 40px;
 }
 
 .textos {
@@ -63,3 +63,39 @@ body {
     margin-left: 1000px;
 }
 
+@media screen and (max-device-width: 700px) {
+
+    .section-principal {
+        display: none;
+    }
+    
+    .botao {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: end;
+    }
+
+    .botao-menu {
+        background-color: red;
+    }
+
+    .menu-lista {
+        display: none;
+        text-align: end;
+    }
+
+    .menu-item {
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+    }
+}

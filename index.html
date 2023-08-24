@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
+
+    <img class="logo" src="Logo (2).png" alt="">
+    
     <div class="menu">
-        <ul class="menu-lista">
+        <div class="icones">
+            <button class="botao-menu"><span id="burguer" class="material-icons md-48" onclick="clickMenu()" >menu</span></button>
+        </div>
+        <ul class="menu-lista" id="itens">
             <li><a class="menu-item" href="#"></a><span class="inicio">Início</span></li>
             <li><a class="menu-item" href="#"></a>Estudos de caso</li>
             <li><a class="menu-item" href="#"></a>Blog</li>
@@ -20,17 +27,37 @@
 
     <button class="botao">Contato</button>
 
-    <img class="logo" src="Logo (2).png" alt="">
+    
 
-    <div class="textos">
-        <p class="texto-um">Eu sou <span class="inicio">William</span> um <br> UX Designer de <br> Brasília</p>
-        <p class="texto-dois">Olá, meu nome é William e crio interfaces exclusivas usando código. </p>
-        <br>
-        <button class="botao-dois">- Meus trabalhos</button>
+    <div class="section-principal">
+        <div class="textos">
+            <p class="texto-um">Eu sou <span class="inicio">William</span> um <br> UX Designer de <br> Brasília</p>
+            <p class="texto-dois">Olá, meu nome é William e crio interfaces exclusivas usando código. </p>
+            <br>
+            <button class="botao-dois">- Meus trabalhos</button>
+        </div>
+    
+        <img class="teste" src="image 784.png" alt="">
     </div>
 
-    <img class="teste" src="image 784.png" alt="">
+    <script>
 
+        function mudouTamanho() {
+            if (window.innerWidth >= 700) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none' 
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 
 
     
