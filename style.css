@@ -67,6 +67,30 @@ body {
     display: none;
 }
 
+.texto-dois {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.legenda-dois {
+    color: red;
+}
+
+.section-dois {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cartao {
+    padding: 1em;
+}
+
+.card {
+    background-color: #181818;
+    padding: 2em;
+}
+
 @media screen and (max-device-width: 700px) {
 
     .section-principal {
@@ -114,7 +138,7 @@ body {
 
     .foto-principal {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 320px;
     }
 
     .textos {
@@ -149,7 +173,7 @@ body {
         margin-left: 0;
         margin-top: 0;
         text-align: center;
-        padding-top: 300px;
+        padding-top: 50px;
     }
 
 
