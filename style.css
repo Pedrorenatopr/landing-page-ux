@@ -67,13 +67,18 @@ body {
     display: none;
 }
 
-.texto-dois {
+.texto-section-dois {
     text-align: center;
     padding-top: 100px;
 }
 
 .legenda-dois {
     color: red;
+    text-align: center;
+}
+
+.titulo-dois {
+    text-align: center;
 }
 
 .section-dois {
@@ -176,5 +181,18 @@ body {
         padding-top: 50px;
     }
 
+    .legenda-dois {
+        text-align: center;
+    }
+
+    .titulo-dois {
+        text-align: center;
+    }
+
+    .section-dois {
+        display: grid;
+        justify-content: center;
+        padding-top: 50px;
+    }
 
 }
