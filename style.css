@@ -87,6 +87,10 @@ body {
     padding-top: 50px;
 }
 
+.legenda-card {
+    font-weight: bold;
+}
+
 .cartao {
     padding: 1em;
 }
