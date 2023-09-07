@@ -142,6 +142,10 @@ body {
     border: none;
 }
 
+.texto-cinco {
+    padding-top: 300px;
+    text-align: center;
+}
 
 @media screen and (max-device-width: 700px) {
 
