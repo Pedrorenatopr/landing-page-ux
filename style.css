@@ -168,6 +168,17 @@ body {
     padding-top: 50px;
 }
 
+.texto-seis {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.teste1 {
+    position: absolute;
+    margin-top: -50px;
+    padding-left: 100px;
+}
+
 @media screen and (max-device-width: 700px) {
 
     .section-principal {
