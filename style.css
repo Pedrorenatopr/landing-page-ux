@@ -173,10 +173,30 @@ body {
     padding-top: 100px;
 }
 
+.texto-cartao {
+}
+
 .teste1 {
     position: absolute;
-    margin-top: -50px;
-    padding-left: 100px;
+    margin-top: -70px;
+    padding-left: 105px;
+}
+
+.teste2 {
+    color: gray;
+    font-size: 13px;
+    position: absolute;
+    margin-top: -70px;
+    padding-left: 105px;
+}
+
+.section-seis {
+    display: flex;
+    justify-content: center;
+}
+
+.cartao-seis {
+    padding: 1em;
 }
 
 @media screen and (max-device-width: 700px) {
