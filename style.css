@@ -155,6 +155,19 @@ body {
     gap: 2em;
 }
 
+.botao-cinco {
+    background-color: #F55529;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+.botao-section-cinco {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
 @media screen and (max-device-width: 700px) {
 
     .section-principal {
