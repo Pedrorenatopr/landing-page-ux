@@ -207,7 +207,6 @@ body {
 }
 
 .texto-sete {
-    padding-top: 100px;
     padding-left: 500px;
 }
 
@@ -229,6 +228,12 @@ body {
     justify-content: center;
     padding-left: 400px;
     margin-top: -120px;
+}
+
+.section-sete {
+    background-color: #181818;
+    margin-top: 80px;
+    padding: 40px;
 }
 
 
