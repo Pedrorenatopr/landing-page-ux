@@ -236,6 +236,29 @@ body {
     padding: 40px;
 }
 
+.texto-footer {
+    font-size: 13px;
+    color: gray;
+}
+
+.texto-footer-dois {
+    color: gray;
+}
+
+.email {
+    background-color: #181818;
+    height: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.footer-card {
+    padding: 4em;
+}
 
 @media screen and (max-device-width: 700px) {
 
