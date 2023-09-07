@@ -97,6 +97,7 @@ body {
 
 .cartao {
     padding: 1em;
+    width: 350px;
 }
 
 .card {
@@ -127,6 +128,7 @@ body {
     padding-left: 0;
     margin-left: 0;
 }
+
 
 .section-quatro {
     margin-top: -450px;
@@ -238,5 +240,14 @@ body {
         justify-content: center;
         padding-top: 50px;
     }
+
+    .section-tres {
+        display: grid;
+        gap: 2em;
+        padding-left: 10px;
+        padding-top: 150px;
+    }
+
+
 
 }
