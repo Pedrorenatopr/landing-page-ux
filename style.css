@@ -108,7 +108,7 @@ body {
     display: grid;
     gap: 2em;
     padding-left: 550px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .seta {
@@ -126,6 +126,17 @@ body {
     padding: 1em;
     padding-left: 0;
     margin-left: 0;
+}
+
+.section-quatro {
+    margin-top: -450px;
+    padding-left: 1000px;
+}
+
+.botao-quatro {
+    background-color: #F55529;
+    color: white;
+    padding: 15px;
 }
 
 
