@@ -307,13 +307,13 @@ body {
 
     .foto-principal {
         text-align: center;
-        padding-top: 320px;
+        padding-top: 0;
     }
 
     .textos {
-        position: absolute;
         margin-left: 0;
         margin-top: 0;
+        padding-top: 250px
     }
 
     .texto-um {
